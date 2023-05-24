@@ -1,10 +1,10 @@
 # Databricks notebook source
 # MAGIC %md
-# MAGIC 
+# MAGIC
 # MAGIC ## Get Data
-# MAGIC 
+# MAGIC
 # MAGIC 1. Download the [data csv file](https://github.com/himanshuguptadb/Telematics_Datagen/blob/master/Data/Data.zip) from github
-# MAGIC 
+# MAGIC
 # MAGIC   * In production, it is highly recommended to upload the data to an adls location and use it in workspace. 
 # MAGIC   * For simplicity and demo purpose, we will go simple & use the UI. Please refer to below steps to load data and create tables.
 # MAGIC   
@@ -14,8 +14,22 @@
 # COMMAND ----------
 
 # MAGIC %md
+# MAGIC ## Create Database for Capstone project
+# MAGIC 1. We will create a database with your wwid in it. e.g fx848_capstone. 
+# MAGIC 2. Execute below command in a notebook to create the database
+# MAGIC %sql
+# MAGIC create database fx848_capstone
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC create database <wwid>_capstone
+
+# COMMAND ----------
+
+# MAGIC %md
 # MAGIC ## Import Data using UI
-# MAGIC 
+# MAGIC
 # MAGIC 1. Below steps need to performed for each csv/data file **individually**.
 # MAGIC 2. Click <img src="https://github.com/himanshuguptadb/Hackathon_CDS/blob/master/Images/data-icon.png?raw=true" width="30"> **Data** in the sidebar.
 # MAGIC 3. Click on **Add** in the top right corner and from the dropdown select **Add Data**.<br>  
@@ -24,7 +38,7 @@
 # MAGIC <img src="https://github.com/himanshuguptadb/Hackathon_CDS/blob/master/Images/Add_Data_Options.png?raw=true" width="1300">
 # MAGIC 5. Click on **browse data** to open file browser window. Navigate to the correct folder to load the files. Pick the file you want to create the table for. <br>
 # MAGIC <img src="https://github.com/himanshuguptadb/Hackathon_CDS/blob/master/Images/Upload_Data.png?raw=true" width="500">
-# MAGIC 6. Complete the table creation process by providing the **catalog name*, **schema name** and **table name**. Column names are prepopulated based on the header row in the csv. <br>
+# MAGIC 6. Complete the table creation process by providing the **schema name** and **table name**. Column names are prepopulated based on the header row in the csv. <br>
 # MAGIC <img src="https://github.com/himanshuguptadb/Hackathon_CDS/blob/master/Images/Select_catalog_schema.png?raw=true" width="1400">
 # MAGIC 7. Click on **create table** button in the bottom left corner of your screen. <br>
 # MAGIC <img src="https://github.com/himanshuguptadb/Hackathon_CDS/blob/master/Images/Create_Table.png?raw=true" width="1400">
@@ -34,7 +48,7 @@
 
 # MAGIC %md
 # MAGIC ## Next Steps
-# MAGIC 
+# MAGIC
 # MAGIC Navigate to **01 - EDA** notebook for Analyzing the data.
 
 # COMMAND ----------
