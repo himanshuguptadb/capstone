@@ -3,7 +3,7 @@
 # MAGIC
 # MAGIC ## Get Data
 # MAGIC
-# MAGIC 1. Download the [data csv file](https://github.com/himanshuguptadb/Telematics_Datagen/blob/master/Data/Data.zip) from github
+# MAGIC 1. Download the [data csv file](https://github.com/himanshuguptadb/Telematics_Datagen/blob/master/Data/Data.zip) from github. Please ignore weather data in the Zip file for this excercise
 # MAGIC
 # MAGIC   * In production, it is highly recommended to upload the data to an adls location and use it in workspace. 
 # MAGIC   * For simplicity and demo purpose, we will go simple & use the UI. Please refer to below steps to load data and create tables.
@@ -31,18 +31,18 @@
 # MAGIC ## Import Data using UI
 # MAGIC
 # MAGIC 1. Below steps need to performed for each csv/data file **individually**.
-# MAGIC 2. Click <img src="https://github.com/himanshuguptadb/Hackathon_CDS/blob/master/Images/data-icon.png?raw=true" width="30"> **Data** in the sidebar.
+# MAGIC 2. Click <img src="https://github.com/himanshuguptadb/capstone/blob/master/Images/data-icon.png?raw=true" width="30"> **Data** in the sidebar.
 # MAGIC 3. Click on **Add** in the top right corner and from the dropdown select **Add Data**.<br>  
-# MAGIC <img src="https://github.com/himanshuguptadb/Hackathon_CDS/blob/master/Images/Add_Data.png?raw=true" width="400">
+# MAGIC <img src="https://github.com/himanshuguptadb/capstone/blob/master/Images/Add_Data.png?raw=true" width="400">
 # MAGIC 4. Databricks provide multiple Native integrations to load for various sources. For this exercise, we will use **Upload data**. <br>
-# MAGIC <img src="https://github.com/himanshuguptadb/Hackathon_CDS/blob/master/Images/Add_Data_Options.png?raw=true" width="1300">
+# MAGIC <img src="https://github.com/himanshuguptadb/capstone/blob/master/Images/Add_Data_Options.png?raw=true" width="1300">
 # MAGIC 5. Click on **browse data** to open file browser window. Navigate to the correct folder to load the files. Pick the file you want to create the table for. <br>
-# MAGIC <img src="https://github.com/himanshuguptadb/Hackathon_CDS/blob/master/Images/Upload_Data.png?raw=true" width="500">
+# MAGIC <img src="https://github.com/himanshuguptadb/capstone/blob/master/Images/Upload_Data.png?raw=true" width="500">
 # MAGIC 6. Complete the table creation process by providing the **schema name** and **table name**. Column names are prepopulated based on the header row in the csv. <br>
-# MAGIC <img src="https://github.com/himanshuguptadb/Hackathon_CDS/blob/master/Images/Select_catalog_schema.png?raw=true" width="1400">
+# MAGIC <img src="https://github.com/himanshuguptadb/capstone/blob/master/Images/Select_catalog_schema.png?raw=true" width="1400">
 # MAGIC 7. Click on **create table** button in the bottom left corner of your screen. <br>
-# MAGIC <img src="https://github.com/himanshuguptadb/Hackathon_CDS/blob/master/Images/Create_Table.png?raw=true" width="1400">
-# MAGIC 8. Table creation process is complete. You can review the table details in the data explorer window by click on <img src="https://github.com/himanshuguptadb/Hackathon_CDS/blob/master/Images/data-icon.png?raw=true" width="30">
+# MAGIC <img src="https://github.com/himanshuguptadb/capstone/blob/master/Images/Create_Table.png?raw=true" width="1400">
+# MAGIC 8. Table creation process is complete. You can review the table details in the data explorer window by click on <img src="https://github.com/himanshuguptadb/capstone/blob/master/Images/data-icon.png?raw=true" width="30">
 
 # COMMAND ----------
 
