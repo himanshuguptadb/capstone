@@ -41,6 +41,7 @@ Dataset consistes for 400 engines build and sold between January 2022 and Septem
 
  <pre> * engine_serial_number                Unique identifier for an engine	
  * event_timestamp                     Timestamp when the engine event was generated
+ * event_date.                         Date when the engine event was generated
  * altitude                            Altitude at which the vehicle is being driven
  * altitude_uom	                       Unit of measure for Altitude
  * location                            City in which the truct is at the time	
